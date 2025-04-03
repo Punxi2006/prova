@@ -97,16 +97,16 @@ Las **Tareas Asignadas** que se explicarán a continuación, describen las respo
 **Tareas específicas:** 
 - Dividir las fases del proyecto en tareas concretas mediante la estructura WBS (Work Breakdown Structure). 
   - Fecha inicio: 10-01-25 
-- Fecha final: 13-01-25 
+  - Fecha final: 13-01-25 
 - Establecer un plan detallado con la secuencia temporal de las tareas, asegurando que el sprint finalizo dentro de la fecha tope establecida. 
--Fecha inicio:10-01-25 
--Fecha final: 13-01-25 
--Designar un líder de proyecto responsable de la coordinación general. 
--Fecha inicio: 14-01-25 
--Fecha final: 20-01-25 
--Asignar responsables para cada fase y tarea específica del proyecto. 
--Fecha inicio: 14-01-25 
--Fecha final: 20-01-25 
+  - Fecha inicio:10-01-25 
+  - Fecha final: 13-01-25 
+- Designar un líder de proyecto responsable de la coordinación general. 
+  - Fecha inicio: 14-01-25 
+  - Fecha final: 20-01-25 
+- Asignar responsables para cada fase y tarea específica del proyecto. 
+  - Fecha inicio: 14-01-25 
+  - Fecha final: 20-01-25 
 
 #### **Jaime Climent Cardona**  
 - Identificar necesidades de hardware/software.  
