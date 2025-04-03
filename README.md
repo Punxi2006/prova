@@ -67,6 +67,8 @@
 - **Jonman Jimenez Mendoza**: Líder del Proyecto.  
 - **Jaime Climent Cardona**: Administrador de Infraestructura TI.  
 - **Frances Simó Olmo**: Gestor de Riesgos.  
+<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.007.png" width="50%" height="150" alt="Mi Foto">
+
 
 ---
 
