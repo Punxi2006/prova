@@ -158,20 +158,46 @@ Las **Tareas en equipo** que se abordarán a continuación incluyen la planifica
 Al firmar este documento se está de acuerdo y comprometen a cumplir con las tareas y responsabilidades asignadas. 
 
 <img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.008.png" width="70%" height="100" alt="Mi Foto">
-Jonman Jiménez Mendoza                        Jaime Climent Cardona                             Frances Simó Olmo 
+Jonman Jiménez Mendoza Jaime Climent Cardona Frances Simó Olmo 
 
 ---
 
 ## 3. Análisis de Requisitos  
-### 3.1 Materiales  
-#### 3.1.1 Requisitos de Maquinaria  
-- **Servidores**:  
-  - Aplicaciones: 8 núcleos, 32 GB RAM, 1 TB SSD.  
-  - Bases de datos: 16 núcleos, 64 GB RAM, 2 TB SSD.  
-  - Respaldos: 4 núcleos, 16 GB RAM, 4 TB HDD.  
-- **Estaciones de trabajo**: Intel i5, 8 GB RAM, 512 GB SSD.  
-- **Equipos de red**: Switches Gigabit, routers redundantes, firewall.  
-- **NAS**: 10 TB, RAID, replicación.  
+El **Análisis de Requisitos** que se presentará el análisis que incluyen, materiales, de seguridad, rendimiento y escalabilidad. 
+### 3.1 Materiales que se van a utilizar 
+#### 3.1.1 Requisitos de Maquinaria
+Todo el hardware que se va a necesitar. 
+
+#### 3.1.1.1. Servidores
+- **Servidor de aplicaciones:** 
+  - Procesador: Mínimo 8 núcleos (AMD EPYC). 
+  - Memoria RAM: 32 GB escalable a 64 GB. 
+  - Almacenamiento: SSD de 1 TB con soporte para RAID 1. 
+  - Sistema operativo: Windows Server (22.04 o superior)  
+- **Servidor de bases de datos:** 
+  - Procesador: Mínimo 16 núcleos. 
+  - Memoria RAM: 64 GB escalable a 128 GB. 
+  - Almacenamiento: SSD de 2 TB con RAID 5. 
+  - Sistema operativo: Windows Server (compatible con bases de datos) 
+- **Servidor de respaldo:** 
+  - Procesador: Mínimo 4 núcleos. 
+  - Memoria RAM: 16 GB. 
+  - Almacenamiento: 4 TB HDD para backups incrementales y totales. 
+
+#### 3.1.1.2. Estaciones de trabajo 
+- Procesador: Intel i5 o equivalente. 
+- Memoria RAM: 8 GB. 
+- Almacenamiento: SSD de 512 GB. 
+- Sistema operativo: Windows Server 22 (nos ofrecen la licencia el ayuntamiento). 
+#### 3.1.1.3. Equipos de red 
+- Switches de red Gigabit con soporte para VLAN. 
+- Routers con redundancia y balanceo de carga. 
+- Firewall hardware para protección perimetral. 
+- Puntos de acceso Wifi de doble banda (2.4 GHz y 5 GHz). 
+#### 3.1.1.4. Almacenamiento en red (NAS) 
+- Capacidad: 10 TB escalable. 
+- Soporte para RAID y replicación de datos. 
+- Compatible con protocolos SMB y NFS. 
 
 #### 3.1.2 Requisitos de Software  
 - **Sistema de gestión**: Web app, integración con pasarelas de pago.  
