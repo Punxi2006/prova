@@ -149,11 +149,15 @@ Las **Tareas en equipo** que se abordarán a continuación incluyen la planifica
   - Fecha inicio: 20-01-25 
   - Fecha final: 23-01-25 
 
-### 2.4 Firmas  
+### 2.3.1. Mirmbros involucrados  
 - Jonman Jiménez Mendoza-Líder del Proyecto  
 - Jaime Climent Cardona-Administrador de Infraestructra TI  
-- Frances Simó Olmo-Gestor de Riesgos  
+- Frances Simó Olmo-Gestor de Riesgos
+
+## 2.4. Firmas
+Al firmar este documento se está de acuerdo y comprometen a cumplir con las tareas y responsabilidades asignadas. 
 <img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.008.png" width="70%" height="100" alt="Mi Foto">
+Jonman Jiménez Mendoza                        Jaime Climent Cardona                             Frances Simó Olmo 
 
 ---
 
