@@ -43,6 +43,7 @@ El **Work Breakdown Structure (WBS)** que se presenta a continuación desglosa l
 
 ### 1.4 Cronograma  
 El **Cronograma** que se presenta a continuación detalla las fases y actividades clave del proyecto, este en específico del primer sprint, permite coordinar tareas, establecer plazos y garantizar que el proyecto avance de manera ordenada y dentro de los tiempos establecidos. 
+
 <img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.006.png" width="50%" height="150" alt="Mi Foto">
 
 
