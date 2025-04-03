@@ -115,6 +115,7 @@
 - Jonman Jiménez Mendoza  
 - Jaime Climent Cardona  
 - Frances Simó Olmo  
+<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.008.png" width="50%" height="150" alt="Mi Foto">
 
 ---
 
