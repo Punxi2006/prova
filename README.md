@@ -46,7 +46,7 @@
 | Identificación de recursos           | 2.819           | 10/01/25    | 13/01/25    |
 | Evaluación de riesgos                | 4.306           | 14/01/25    | 20/01/25    |
 | Revisión y aprobación del plan       | 4.028           | 20/01/25    | 23/01/25    |
-<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.005.jpeg" width="50%" height="700" alt="Mi Foto">
+<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.005.jpeg" width="50%" height="560" alt="Mi Foto">
 
 
 ### 1.4 Cronograma  
