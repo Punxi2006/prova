@@ -7,18 +7,18 @@
 ### Hardware 
 
 | **ELEMENTO** | **CANTIDAD** | **COSTE (unidad)** | **COSTE TOTAL** |
-| ------------------------ | - | - | - | - | - | - | - |
-|Servidor de aplicaciones  |1 |3\.776€ |3\.776€ |
-|Servidor de bases de datos |1 |4\.777€ |4\.777 € |
-|Servidor de respaldo |2 |3\.000 € |6\.000 € |
-|NAS (10TB escalable) |1 |1\.500 € |1\.500 € |
-|Estaciones de trabajo |3 |800 € |2\.400 € |
-|Switches de red Gigabit (paquete 24)||2 |215€ |430€ |
-|Routers |2 |210€ |420€ |
-|AP Wifi |1 |137€ |137€ |
-|Medidas de seguridad fisicas ||1 |3\.500 € |3\.500 € |
-|SAI |1 |278 |278 |
-|**28.318 €** |
+| ------------------------ | - | - | - |
+| Servidor de aplicaciones  | 1 | 3.776€ | 3.776€ |
+| Servidor de bases de datos | 1 | 4.777€ | 4.777€ |
+| Servidor de respaldo | 2 | 3.000 € | 6.000 € |
+| NAS (10TB escalable) | 1 | 1.500 € | 1.500 € |
+| Estaciones de trabajo | 3 | 800 € | 2.400 € |
+| Switches de red Gigabit (paquete 24) | 2 | 215€ | 430€ |
+| Routers | 2 | 210€ | 420€ |
+| AP Wifi | 1 | 137€ | 137€ |
+| Medidas de seguridad físicas | 1 | 3.500 € | 3.500 € |
+| SAI | 1 | 278€ | 278€ |
+| **TOTAL** | | | **28.318 €** |
 
 Servidor de aplicaciones:  
 
