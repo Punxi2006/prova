@@ -37,6 +37,7 @@
 - **Compatibilidad**: Windows y Linux.  
 
 ### 1.3 WBS  
+El *Work Breakdown Structure (WBS)* que se presenta a continuación desglosa las tareas. Esto permite organizar el proyecto en tareas manejables. 
 <img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.005.jpeg" width="50%" height="560" alt="Mi Foto">
 
 
@@ -132,17 +133,32 @@
 ## 4. Recursos Necesarios  
 ### 4.1 Presupuesto  
 #### Hardware (Total: €20,218)  
-| Elemento                  | Cantidad | Coste/Unidad | Total    |
-|---------------------------|----------|--------------|----------|
-| Servidor de aplicaciones  | 1        | €3,776       | €3,776   |
-| Servidor de bases de datos| 1        | €4,777       | €4,777   |
-| NAS                       | 1        | €1,500       | €1,500   |
+| ELEMENTO                                   | CANTIDAD | COSTE (unidad) | COSTE TOTAL  |
+|--------------------------------------------|----------|---------------|--------------|
+| Servidor de aplicaciones                   | 1        | 3.776 €       | 3.776 €      |
+| Servidor de bases de datos                 | 1        | 4.777 €       | 4.777 €      |
+| Servidor de respaldo                       | 2        | 3.000 €       | 6.000 €      |
+| NAS (10TB escalable)                       | 1        | 1.500 €       | 1.500 €      |
+| Estaciones de trabajo                      | 3        | 800 €         | 2.400 €      |
+| Switches de red Gigabit (paquete 24)       | 2        | 215 €         | 430 €        |
+| Routers                                    | 2        | 210 €         | 420 €        |
+| AP Wifi                                    | 1        | 137 €         | 137 €        |
+| Medidas de seguridad físicas               | 1        | 3.500 €       | 3.500 €      |
+| SAI                                        | 1        | 278 €         | 278 €        |
+| **TOTAL**                                  |          |               | **23.218 €** |
+
 
 #### Software (Total: €3,027)  
-| Elemento                  | Licencias | Coste/Unidad | Total    |
-|---------------------------|-----------|--------------|----------|
-| Soporte MySQL             | 1         | €2,000       | €2,000   |
-| Software de backup        | 1         | €700         | €700     |
+| ELEMENTO                                     | LICENCIAS | COSTE (unidad) | COSTE TOTAL  |
+|----------------------------------------------|-----------|---------------|--------------|
+| Sistema operativo servidores (Windows Server) | 4         | 0 €           | 0 €          |
+| Soporte empresarial (MySQL)                   | 1         | 2.000 €       | 2.000 €      |
+| Software de backup (Aomei Backup)             | 1         | 700 €         | 700 €        |
+| Sistema de virtualización (VMWare Workstation Pro) | 1    | 193 €         | 193 €        |
+| Antivirus y herramientas de seguridad (F-Secure) | 10     | 10 €          | 100 €        |
+| Monitorización (Pandora FMS)                  | 1         | 34 €          | 34 €         |
+| **TOTAL**                                     |           |               | **3.027 €**  |
+
 
 #### Infraestructura de Red (Total: €7,500)  
 | Elemento                  | Cantidad | Coste/Unidad | Total    |
