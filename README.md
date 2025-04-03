@@ -161,10 +161,20 @@ El *Work Breakdown Structure (WBS)* que se presenta a continuación desglosa las
 
 
 #### Infraestructura de Red (Total: €7,500)  
-| Elemento                  | Cantidad | Coste/Unidad | Total    |
-|---------------------------|----------|--------------|----------|
-| Conexión principal        | 1        | €2,500       | €2,500   |
-| Estructura de cableado    | 1        | €3,000       | €3,000   |
+| ELEMENTO                              | CANTIDAD | COSTE (unidad) | COSTE TOTAL  |
+|---------------------------------------|----------|---------------|--------------|
+| Conexión principal (1Gbps)           | 1        | 2.500 €       | 2.500 €      |
+| Conexión redundante                  | 1        | 2.000 €       | 2.000 €      |
+| Estructuración y montaje de cableado  | 1        | 3.000 €       | 3.000 €      |
+| **TOTAL**                             |          |               | **7.500 €**  |
+
+### 4.1.4 Servicios Profesionales
+| ELEMENTO                               | HORAS ESTIM. | COSTE (hora) | COSTE TOTAL  |
+|----------------------------------------|--------------|-------------|--------------|
+| Instalación y configuración de hardware | 50          | 50 €        | 2.500 €      |
+| Configuración de software y pruebas    | 60          | 50 €        | 3.000 €      |
+| Auditoría inicial de seguridad         | 20          | 80 €        | 1.600 €      |
+| **TOTAL**                              |              |             | **7.100 €**  |
 
 ---
 
@@ -177,9 +187,13 @@ El *Work Breakdown Structure (WBS)* que se presenta a continuación desglosa las
 ### 5.2 Plan de Contingencia  
 - **Medidas preventivas**: Monitoreo, backups, formación.  
 - **Respuesta a incidentes**:  
-  | Incidente          | Acciones                        |
-  |--------------------|---------------------------------|
-  | Fallo de hardware  | Activación de servidores de respaldo. |
-  | Ciberataque        | Aislamiento y restauración de backups. |
+| Incidente         | Acciones Inmediatas                                                       |
+|------------------|--------------------------------------------------------------------------|
+| Fallo de hardware | Conmutación a servidores de respaldo, aviso a soporte técnico         |
+| Ciberataque      | Aislamiento del sistema, análisis de logs, restauración de backup     |
+| Pérdida de datos | Restauración de la última copia de seguridad, análisis de causa       |
+| Corte eléctrico  | Uso de UPS y generador, notificación a proveedor eléctrico            |
+| Incendio/Inundación | Activación de protocolos de evacuación, traslado a sitio alternativo |
+
 
 - **Recuperación**: Sitio de respaldo con replicación en tiempo real.  
