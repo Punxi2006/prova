@@ -4,7 +4,7 @@
 **Jonman Jimenez Mendoza**  
 
 ---
-<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.002.png" alt="Mi Foto">
+<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.002.png" width="100%" height="200" alt="Mi Foto">
 
 ## 1. CPD para el alojamiento del sistema de gestión de las actividades deportivas de Tavernes  
 ### 1.1 Objetivos  
