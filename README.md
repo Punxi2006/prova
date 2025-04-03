@@ -60,7 +60,7 @@
 | 6  | Identificación de recursos          | 2.819           | 10/01/25    |
 | 7  | Evaluación de riesgos               | 4.306           | 14/01/25    |
 | 8  | Revisión y aprobación               | 4.028           | 20/01/25    |
-<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.006.png" width="50%" height="300" alt="Mi Foto">
+<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.006.png" width="50%" height="150" alt="Mi Foto">
 
 
 ### 1.5 Equipo  
