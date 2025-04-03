@@ -46,6 +46,8 @@
 | Identificación de recursos           | 2.819           | 10/01/25    | 13/01/25    |
 | Evaluación de riesgos                | 4.306           | 14/01/25    | 20/01/25    |
 | Revisión y aprobación del plan       | 4.028           | 20/01/25    | 23/01/25    |
+<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.005.jpeg" width="80%" height="500" alt="Mi Foto">
+
 
 ### 1.4 Cronograma  
 | #  | Tarea                                | Duración (días) | Inicio      |
@@ -58,7 +60,6 @@
 | 6  | Identificación de recursos          | 2.819           | 10/01/25    |
 | 7  | Evaluación de riesgos               | 4.306           | 14/01/25    |
 | 8  | Revisión y aprobación               | 4.028           | 20/01/25    |
-<img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.005.jpeg" width="80%" height="200" alt="Mi Foto">
 
 
 ### 1.5 Equipo  
