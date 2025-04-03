@@ -95,10 +95,10 @@ Las **Tareas Asignadas** que se explicarán a continuación, describen las respo
 #### **Jonman Jiménez Mendoza** 
 **Rol asignado:** Líder del Proyecto. 
 **Tareas específicas:** 
--Dividir las fases del proyecto en tareas concretas mediante la estructura WBS (Work Breakdown Structure). 
--Fecha inicio: 10-01-25 
--Fecha final: 13-01-25 
--Establecer un plan detallado con la secuencia temporal de las tareas, asegurando que el sprint finalizo dentro de la fecha tope establecida. 
+- Dividir las fases del proyecto en tareas concretas mediante la estructura WBS (Work Breakdown Structure). 
+- Fecha inicio: 10-01-25 
+- Fecha final: 13-01-25 
+- Establecer un plan detallado con la secuencia temporal de las tareas, asegurando que el sprint finalizo dentro de la fecha tope establecida. 
 -Fecha inicio:10-01-25 
 -Fecha final: 13-01-25 
 -Designar un líder de proyecto responsable de la coordinación general. 
