@@ -38,6 +38,7 @@
 
 ### 1.3 WBS  
 El **Work Breakdown Structure (WBS)** que se presenta a continuación desglosa las tareas. Esto permite organizar el proyecto en tareas manejables. 
+
 <img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.005.jpeg" width="50%" height="560" alt="Mi Foto">
 
 
@@ -63,31 +64,49 @@ En este documento se redacta los roles, responsabilidades y tareas asignadas a l
 El equipo encargado se encarga de la creación, gestión y mantenimiento del CPD que alojara el sistema de gestión de actividades deportivas de Tavernes. 
 
 ### 2.1 Roles y Responsabilidades  
-### 2.1.1 Rol 
+### 2.1.1. Rol 
 #### **Líder del Proyecto**  
 Persona en quien recaen las responsabilidades generales y quien realiza las estimaciones sobre la capacidad de esfuerzo del equipo. 
-
+#### 2.1.1.1 Responsabilidades
 - Coordinar actividades.  
 - Supervisar progreso.  
 - Garantizar plazos.  
 - Resolver conflictos.  
 - Gestión documentación.  
 
+### 2.1.2. Rol
 #### **Administrador de Infraestructura TI**  
+Encargado de diseñar, planificar y supervisar la infraestructura software y Hardware.  
+#### 2.1.2.1 Responsabilidades
 - Selección de hardware/software.  
 - Gestión de redes y seguridad.  
 - Mantenimiento y actualizaciones.  
 
-#### **Gestor de Riesgos**  
+### 2.1.3. Rol
+#### **Gestor de Riesgos**
+Identifica, analiza y evalúa los riesgos que podrían afectar la operación del CPD. 
+#### 2.1.3.1 Responsabilidades
 - Evaluación de riesgos.  
 - Desarrollo de estrategias de mitigación.  
 - Gestión de incidentes.  
 
-### 2.2 Tareas Asignadas  
-#### **Jonman Jiménez Mendoza**  
-- Dividir fases del proyecto (WBS).  
-- Establecer plan detallado.  
-- Designar líder de proyecto.  
+### 2.2 Tareas Asignadas
+Las **Tareas Asignadas** que se explicarán a continuación, describen las responsabilidades específicas asignadas a los distintos miembros involucrados. 
+#### **Jonman Jiménez Mendoza** 
+**Rol asignado:** Líder del Proyecto. 
+**Tareas específicas:** 
+-Dividir las fases del proyecto en tareas concretas mediante la estructura WBS (Work Breakdown Structure). 
+--Fecha inicio: 10-01-25 
+--Fecha final: 13-01-25 
+Establecer un plan detallado con la secuencia temporal de las tareas, asegurando que el sprint finalizo dentro de la fecha tope establecida. 
+Fecha inicio:10-01-25 
+Fecha final: 13-01-25 
+Designar un líder de proyecto responsable de la coordinación general. 
+Fecha inicio: 14-01-25 
+Fecha final: 20-01-25 
+Asignar responsables para cada fase y tarea específica del proyecto. 
+Fecha inicio: 14-01-25 
+Fecha final: 20-01-25 
 
 #### **Jaime Climent Cardona**  
 - Identificar necesidades de hardware/software.  
