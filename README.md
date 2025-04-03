@@ -37,15 +37,17 @@
 - **Compatibilidad**: Windows y Linux.  
 
 ### 1.3 WBS  
-El *Work Breakdown Structure (WBS)* que se presenta a continuación desglosa las tareas. Esto permite organizar el proyecto en tareas manejables. 
+El **Work Breakdown Structure (WBS)** que se presenta a continuación desglosa las tareas. Esto permite organizar el proyecto en tareas manejables. 
 <img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.005.jpeg" width="50%" height="560" alt="Mi Foto">
 
 
 ### 1.4 Cronograma  
+El **Cronograma** que se presenta a continuación detalla las fases y actividades clave del proyecto, este en específico del primer sprint, permite coordinar tareas, establecer plazos y garantizar que el proyecto avance de manera ordenada y dentro de los tiempos establecidos. 
 <img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.006.png" width="50%" height="150" alt="Mi Foto">
 
 
 ### 1.5 Equipo  
+A continuación, se ve los miembros del equipo y sus roles. 
 - **Jonman Jimenez Mendoza**: Líder del Proyecto.  
 - **Jaime Climent Cardona**: Administrador de Infraestructura TI.  
 - **Frances Simó Olmo**: Gestor de Riesgos.  
@@ -55,8 +57,15 @@ El *Work Breakdown Structure (WBS)* que se presenta a continuación desglosa las
 ---
 
 ## 2. Documento de Roles y Responsabilidades  
+En este documento se redacta los roles, responsabilidades y tareas asignadas a los miembros del equipo, para poder garantizar la colaboración y objetivos. 
+
+El equipo encargado se encarga de la creación, gestión y mantenimiento del CPD que alojara el sistema de gestión de actividades deportivas de Tavernes. 
+
 ### 2.1 Roles y Responsabilidades  
+### 2.1.1 Rol 
 #### **Líder del Proyecto**  
+Persona en quien recaen las responsabilidades generales y quien realiza las estimaciones sobre la capacidad de esfuerzo del equipo. 
+
 - Coordinar actividades.  
 - Supervisar progreso.  
 - Garantizar plazos.  
