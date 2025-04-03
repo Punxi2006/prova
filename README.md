@@ -168,7 +168,7 @@ El **Análisis de Requisitos** que se presentará el análisis que incluyen, mat
 #### 3.1.1 Requisitos de Maquinaria
 Todo el hardware que se va a necesitar. 
 
-#### 3.1.1.1. Servidores
+##### 3.1.1.1. Servidores
 - **Servidor de aplicaciones:** 
   - Procesador: Mínimo 8 núcleos (AMD EPYC). 
   - Memoria RAM: 32 GB escalable a 64 GB. 
