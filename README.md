@@ -67,7 +67,7 @@ El equipo encargado se encarga de la creación, gestión y mantenimiento del CPD
 ### 2.1.1. Rol 
 #### **Líder del Proyecto**  
 Persona en quien recaen las responsabilidades generales y quien realiza las estimaciones sobre la capacidad de esfuerzo del equipo. 
-#### 2.1.1.1 Responsabilidades
+##### 2.1.1.1 Responsabilidades
 - Coordinar actividades.  
 - Supervisar progreso.  
 - Garantizar plazos.  
@@ -77,7 +77,7 @@ Persona en quien recaen las responsabilidades generales y quien realiza las esti
 ### 2.1.2. Rol
 #### **Administrador de Infraestructura TI**  
 Encargado de diseñar, planificar y supervisar la infraestructura software y Hardware.  
-#### 2.1.2.1 Responsabilidades
+##### 2.1.2.1 Responsabilidades
 - Selección de hardware/software.  
 - Gestión de redes y seguridad.  
 - Mantenimiento y actualizaciones.  
@@ -85,7 +85,7 @@ Encargado de diseñar, planificar y supervisar la infraestructura software y Har
 ### 2.1.3. Rol
 #### **Gestor de Riesgos**
 Identifica, analiza y evalúa los riesgos que podrían afectar la operación del CPD. 
-#### 2.1.3.1 Responsabilidades
+##### 2.1.3.1 Responsabilidades
 - Evaluación de riesgos.  
 - Desarrollo de estrategias de mitigación.  
 - Gestión de incidentes.  
@@ -184,31 +184,72 @@ Todo el hardware que se va a necesitar.
   - Memoria RAM: 16 GB. 
   - Almacenamiento: 4 TB HDD para backups incrementales y totales. 
 
-#### 3.1.1.2. Estaciones de trabajo 
+##### 3.1.1.2. Estaciones de trabajo 
 - Procesador: Intel i5 o equivalente. 
 - Memoria RAM: 8 GB. 
 - Almacenamiento: SSD de 512 GB. 
 - Sistema operativo: Windows Server 22 (nos ofrecen la licencia el ayuntamiento). 
-#### 3.1.1.3. Equipos de red 
+
+##### 3.1.1.3. Equipos de red 
 - Switches de red Gigabit con soporte para VLAN. 
 - Routers con redundancia y balanceo de carga. 
 - Firewall hardware para protección perimetral. 
 - Puntos de acceso Wifi de doble banda (2.4 GHz y 5 GHz). 
-#### 3.1.1.4. Almacenamiento en red (NAS) 
+
+##### 3.1.1.4. Almacenamiento en red (NAS) 
 - Capacidad: 10 TB escalable. 
 - Soporte para RAID y replicación de datos. 
 - Compatible con protocolos SMB y NFS. 
 
-#### 3.1.2 Requisitos de Software  
-- **Sistema de gestión**: Web app, integración con pasarelas de pago.  
-- **Bases de datos**: PostgreSQL/MySQL.  
-- **Seguridad**: Monitorización, antivirus, SSL.  
-- **Virtualización**: VMware/Proxmox.  
+#### 3.1.2 Requisitos de Software
+Todo el software que se va a necesitar 
+##### 3.1.2.1. Sistema de gestión 
+- Aplicación web para inscripciones y reservas. 
+- Compatible con navegadores modernos (Chrome, Edge, Firefox). 
+- Integración con pasarelas de pago seguras. 
+- Soporte para múltiples idiomas. 
+
+##### 3.1.2.2. Bases de datos 
+- PostgreSQL o MySQL. 
+- Herramientas de replicación y respaldo automático.
+
+##### 3.1.2.3. Seguridad 
+- Software de monitorización de red. 
+- Antivirus y sistemas de detección de intrusiones. 
+- Certificados SSL para comunicaciones seguras. 
+
+##### 3.1.2.4. Otras herramientas 
+- Sistema de virtualización: VMware o Proxmox. 
+- Software de backup: Veeam o Bacula. 
 
 #### 3.1.3 Infraestructura de Red  
-- **Conectividad**: 1 Gbps principal + redundante.  
-- **Diseño**: Segmentación VLAN (gestión, usuarios, servidores).  
-- **Seguridad**: Firewall, VPN (WireGuard, OpenVPN), políticas de acceso.  
+##### 3.1.3.1. Conectividad 
+- Conexión principal de alta velocidad: Mínimo 1 Gbps. 
+- Conexión redundante con proveedor diferente para garantizar la continuidad del servicio. 
+
+##### 3.1.3.2. Diseño de red 
+- Segmentación de red mediante VLANs: 
+- Red para gestión interna. 
+- Red para usuarios finales. 
+- Red de servidores.
+
+##### 3.1.3.3. Seguridad 
+- Firewall perimetral con inspección profunda de paquetes. 
+  - IPSec, encriptación de y autentificación de trafico de red. 
+  - SNORT; Detección y prevención de intrusiones. 
+  - SSL; Inspección de tráfico cifrado.  
+- Redes privadas virtuales (VPN) para accesos remotos seguros, con lo siguientes protocolos. 
+  - WireGuard; VPN moderna, segura y rápida. 
+  - OpenVpn; Protocolo basado en SSL/TLS. 
+  - IPSec; Alta Seguridad para túneles VPN en redes corporativas. 
+- Políticas de acceso basadas en roles. 
+  - LDAP; Para la gestión de permisos en los usuarios. 
+  - OAuth; Para autentificación federada en aplicaciones web. 
+  - RADIUS; Autentificación de usuarios en la red wifi empresarial.  
+
+##### 3.1.3.4. Monitorización #
+- Implementación de herramientas de monitorización y alerta. 
+- Gráficos en tiempo real de consumo de ancho de banda y estado del hardware. 
 
 #### 3.1.4 Escalabilidad y Disponibilidad  
 - Balanceo de carga.  
@@ -217,7 +258,9 @@ Todo el hardware que se va a necesitar.
 
 ---
 
-## 4. Recursos Necesarios  
+## 4. Recursos Necesarios 
+Los **Recursos Necesarios** que se abordarán a continuación, enfocados en el aspecto financiero del Proyecto para alojar el sistema de gestión de actividades deportivas de Tavernes, detallan el presupuesto requerido y su por qué. 
+
 ### 4.1 Presupuesto  
 #### Hardware (Total: €20,218)  
 | ELEMENTO                                   | CANTIDAD | COSTE (unidad) | COSTE TOTAL  |
@@ -234,6 +277,19 @@ Todo el hardware que se va a necesitar.
 | SAI                                        | 1        | 278 €         | 278 €        |
 | **TOTAL**                                  |          |               | **23.218 €** |
 
+- **Servidor de aplicaciones:** Son programas de servidor en una red distribuida que proporciona el entorno de ejecución para un programa de aplicaciones, es decir es el componente de tiempo de ejecución principal en todas las configuraciones y donde una aplicación se ejecuta. 
+- **Servidor de base de datos:** Hardware que permite organizar la información usando tablas, índices y registros. 
+- **Servidor de respaldo:** Es un tipo de servidor que facilita el respaldo de datos, archivos, aplicaciones o base de datos. 
+- **NAS:**Es un dispositivo de almacenamiento conectado a la red. Su función es hacer copias de seguridad de los archivos que tú le indiques.
+- **Estación de trabajo:** Consiste en equipos que se emplean en cualquier trabajo con necesidades específicas, suelen formar parte de una red de trabajo donde se almacenan archivos y carpetas. 
+- **Switch de red:** Es un dispositivo informático que permite interconectar dispositivos a través de una red de área local o red LAN. 
+- **Router:** Es un dispositivo de hardware que sirve de punto de conexión entre una red local e Internet. 
+- **AP Wifi:** Es un dispositivo para establecer una conexión inalámbrica entre equipos y pueden formar una red inalámbrica externa. 
+- **Medidas de seguridad físicas:** Se encarga de proteger todo el hardware, aquí incluimos; 
+  - Extintores de C02. 
+  - Detectores de humo y calor. 
+  - Aspersores de gas inerte (FM-200, Novec 1230). 
+- **SAI:** O UPS (Uninterruptible Power Supply), es un dispositivo que proporciona energía de respaldo en caso de fallos eléctricos.
 
 #### Software (Total: €3,027)  
 | ELEMENTO                                     | LICENCIAS | COSTE (unidad) | COSTE TOTAL  |
@@ -246,6 +302,12 @@ Todo el hardware que se va a necesitar.
 | Monitorización (Pandora FMS)                  | 1         | 34 €          | 34 €         |
 | **TOTAL**                                     |           |               | **3.027 €**  |
 
+- **Sistema operativo servidores:** Es el software que se encarga de gestionar los recursos, servicios y usuarios.  Windows Server se consideraría mejor opción para este proyecto ya que dependería del ayuntamiento de Tavernes y este ya tiene la infraestructura hecha con Windows Server y las licencia se proporcionaría gratis por el ayuntamiento.  
+Soporte empresarial: El soporte empresarial que hemos decidido utilizar ha sido el MySQL para poder gestionar la base de datos del polideportivo. 
+- **Software de backup:** Es la aplicación o los diferentes comandos y scripts que se utilizarán para poder realizar los backups del sistema y guardar-los. 
+- **Sistema de virtualización:** Es la tecnología que se puede usar para crear las representaciones virtuales de los servidores. 
+- **Antivirus y herramientas de seguridad:** Son las medidas de seguridad que se tienen en cuenta para que en caso de recibir algún ataque que no pueda ser una amenaza muy grande. 
+- **Monitorización:** Las medidas que se llevan a cabo para poder observar los servidores y prevenir fallos y tomar medidas a tiempo. 
 
 #### Infraestructura de Red (Total: €7,500)  
 | ELEMENTO                              | CANTIDAD | COSTE (unidad) | COSTE TOTAL  |
@@ -255,6 +317,10 @@ Todo el hardware que se va a necesitar.
 | Estructuración y montaje de cableado  | 1        | 3.000 €       | 3.000 €      |
 | **TOTAL**                             |          |               | **7.500 €**  |
 
+- **Conexión principal:** Es la velocidad que tendrá que soportar nuestro servidor. 
+- **Conexión redundante:** Es la velocidad de apoyo. 
+- **Estructura y montaje de cableado:** Como se diseñará nuestra sala se servidores. 
+
 ### 4.1.4 Servicios Profesionales
 | ELEMENTO                               | HORAS ESTIM. | COSTE (hora) | COSTE TOTAL  |
 |----------------------------------------|--------------|-------------|--------------|
@@ -263,16 +329,42 @@ Todo el hardware que se va a necesitar.
 | Auditoría inicial de seguridad         | 20          | 80 €        | 1.600 €      |
 | **TOTAL**                              |              |             | **7.100 €**  |
 
+- **Instalación y configuración de hardware:**  Es el proceso de agregar o modificar los componentes físicos de un sistema informático, como discos duros, memorias, tarjetas gráficas, etc. 
+- **Configuración de software y pruebas:** Son el proceso de evaluar y verificar que un producto o aplicación de software hace lo que se supone que debe. 
+- **Auditoria inicial de seguridad:** Es un proceso estandarizado destinado a verificar que los sistemas informáticos y la información almacenada en los mismos cumplan con los estándares de seguridad requeridos. 
+
 ---
 
-## 5. Evaluación de Riesgos y Contingencias  
-### 5.1 Identificación de Riesgos  
-- **Tecnológicos**: Fallo de hardware, ciberataques.  
-- **Ambientales**: Cortes eléctricos, incendios.  
-- **Humanos**: Errores operativos, sabotaje.  
+## 5. Evaluación de Riesgos y Contingencias 
+La **Evaluación de Riesgos y Planificación de Contingencias** que se explicará a continuación identifica posibles problemas que podrían afectar al CPD. Esto incluye riesgos técnicos, operativos y de seguridad. Asimismo, se detallarán estrategias de mitigación y planes de contingencia para minimizar su impacto. 
+### 5.1 Identificación de Riesgos
+
+### 5.1.1. Riesgos tecnológicos
+- **Fallo de hardware:** Posible avería de servidores, almacenamiento o componentes de red. 
+- **Fallo de software:** Errores en el sistema operativo, bases de datos o aplicaciones. 
+- **Ciberataques:** Malware, ransomware, accesos no autorizados. 
+- **Pérdida de datos:** Eliminación accidental, dañado de alguno de los datos o fallos en las copias de seguridad. 
+- **Fallo de red:** Interrupciones en la conexión o caída de la red interna. 
+
+### 5.1.2. Riesgos ambientales
+- **Fallo eléctrico:** Apagones, sobretensiones o fallos en la alimentación eléctrica. 
+- **Incendios o inundaciones:** Desastres naturales o incidentes que afectan a la infraestructura física. 
+- **Temperaturas extremas:** Fallo en el sistema de refrigeración que provoca un fallo. 
+
+### 5.1.3. Riesgos Humanos 
+- **Errores operativos:** Configuraciones erróneas, manipulación inadecuada de equipos o eliminaciones accidentales. 
+- **Sabotaje interno:** Actos intencionados de empleados con acceso al sistema. 
 
 ### 5.2 Plan de Contingencia  
-- **Medidas preventivas**: Monitoreo, backups, formación.  
+
+### 5.2.1. Medidas Preventivas 
+- **Monitoreo proactivo:** Implementación de sistemas de monitoreo en tiempo real (Zabbix/Nagios) para hardware, software y redes. 
+- **Backups regulares:** Copias de seguridad automatizadas y almacenamiento en una ubicación remota. 
+- **Firewall y seguridad perimetral:** Uso de firewalls avanzados, IDS/IPS y software antimalware. 
+- **Actualización y mantenimiento:** Aplicación de parches de seguridad y revisión periódica de sistemas. 
+- **Suministro eléctrico redundante:** Uso de UPS. 
+- **Capacitación del personal:** Formación en seguridad y procedimientos de emergencia para empleados. 
+
 - **Respuesta a incidentes**:  
 | Incidente         | Acciones Inmediatas                                                       |
 |------------------|--------------------------------------------------------------------------|
@@ -282,5 +374,11 @@ Todo el hardware que se va a necesitar.
 | Corte eléctrico  | Uso de UPS y generador, notificación a proveedor eléctrico            |
 | Incendio/Inundación | Activación de protocolos de evacuación, traslado a sitio alternativo |
 
+### 5.2.4. Recuperación y Reanudación 
+- **Evaluación del impacto:** Análisis del incidente y sus efectos en la operatividad. 
+- **Restauración de servicios:** Implementación del plan de recuperación según la criticidad del sistema afectado. 
+- **Pruebas y verificación:** Validación de la integridad de los datos y correcto funcionamiento. 
 
-- **Recuperación**: Sitio de respaldo con replicación en tiempo real.  
+### 5.2.5. Sitio de respaldo 
+- **Ubicación alternativa** con servidores espejo listos para ser activados en caso de desastre. 
+- **Replicación de datos en tiempo real** para minimizar la pérdida de información. 
