@@ -109,23 +109,50 @@ Las **Tareas Asignadas** que se explicarán a continuación, describen las respo
   - Fecha final: 20-01-25 
 
 #### **Jaime Climent Cardona**  
-- Identificar necesidades de hardware/software.  
-- Determinar capacidades de procesamiento.  
+**Rol asignado:** Administrador de Infraestructura TI. 
+**Tareas específicas:** 
+- Identificar las necesidades de hardware y software. 
+  - Fecha inicio: 10 – 01-25 
+  - Fecha final: 20-01-25 
+- Determinar las capacidades de procesamiento, almacenamiento y red necesarias. 
+  - Fecha inicio: 14-01-25 
+  - Fecha inicio: 20-01-25  
 
 #### **Frances Simó Olmo**  
-- Identificar riesgos.  
-- Desarrollar planes de contingencia.  
+**Rol asignado:** Gestor de Riesgos. 
+**Tareas específicas:** 
+- Determinar la disponibilidad de recursos y planificar su adquisición o asignación. 
+  - Fecha inicio: 10-01-25 
+  - Fecha final: 13-01-25 
+- Enumerar los recursos materiales y humanos requeridos. 
+  - Fecha inicio: 10-01-25 
+  - Fecha final: 13-01-25 
+- Identificar posibles riesgos que puedan afectar el proyecto. 
+  - Fecha inicio: 14-01-25 
+  - Fecha final: 20-01-25 
+- Desarrollar planes de contingencia para mitigar los riesgos identificados. 
+  - Fecha inicio: 14-01-25 
+  - Fecha final: 20-01-25 
 
 ### 2.3 Tareas en Equipo  
-- Establecer objetivos del CPD (09-10/01/25).  
-- Determinar requisitos funcionales (09-10/01/25).  
-- Revisión final del plan (20/01/25).  
-- Aprobación final (20-23/01/25).  
+Las **Tareas en equipo** que se abordarán a continuación incluyen la planificación de las tareas de manera conjunta de todos los miembros del equipo. 
+- Establecer los objetivos generales del CPD virtual. 
+  - Fecha inicio: 09-01-25 
+  - Fecha final: 10-01-25 
+- Determinar los requisitos funcionales y no funcionales. 
+  - Fecha inicio: 09-01-25 
+  - Fecha final: 10-01-25 
+- Revisar el plan completo del proyecto para asegurarse que todos los aspectos están cubiertos. 
+  - Fecha inicio: 20-01-25 
+  - Fecha final: 20-01-25 
+- Obtener la aprobación final por parte del profesor y los responsables del proyecto. 
+  - Fecha inicio: 20-01-25 
+  - Fecha final: 23-01-25 
 
 ### 2.4 Firmas  
-- Jonman Jiménez Mendoza  
-- Jaime Climent Cardona  
-- Frances Simó Olmo  
+- Jonman Jiménez Mendoza-Líder del Proyecto  
+- Jaime Climent Cardona-Administrador de Infraestructra TI  
+- Frances Simó Olmo-Gestor de Riesgos  
 <img src="1sprint fotos/Aspose.Words.d33e57a9-2320-4bfb-a090-966139295fa7.008.png" width="70%" height="100" alt="Mi Foto">
 
 ---
