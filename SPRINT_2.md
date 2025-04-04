@@ -113,4 +113,51 @@ de bases de datos donde se requiere alta disponibilidad y buen rendimiento.
 - Hemos utilizado VMWare Workstation Pro ya que es una herramienta de virtualización de escritorios de alto rendimiento que puede ser increíblemente útil para empresas, especialmente en entornos de desarrollo, pruebas y administración de sistemas.
 - VMware Workstation Pro permite crear y gestionar múltiples máquinas virtuales en un solo equipo físico. 
 - La virtualización permite ejecutar varios sistemas operativos en un solo equipo, lo que reduce la necesidad de hardware adicional y optimiza los recursos.
-- Proporciona opciones de cifrado de máquinas virtuales y control de acceso. 
+- Proporciona opciones de cifrado de máquinas virtuales y control de acceso.
+
+# DISEÑO DE LA SEGURIDAD DEL SISTEMA
+
+## 1. Medidas de protección contra amenazas
+
+### 1.1. Amenazas externas
+
+#### 1.1.1. Protección contra ciberataques
+- **Firewall y sistemas de detección de intrusos**: Se deben implementar firewalls y realizar un monitoreo constante del tráfico de red en los servidores.
+- **Autenticación multifactor (MFA)**: Es recomendable su uso para accesos sensibles y tareas administrativas.
+- **Cifrado de datos**: Cifrar la información que se transmite entre los servidores y entre servidores y clientes.
+- **Pruebas de seguridad**: Realizar evaluaciones periódicas para identificar y corregir vulnerabilidades.
+
+#### 1.1.2. Protección contra interrupciones de red
+- **Redundancia en la conexión**: Contratar múltiples proveedores de internet y utilizar enlaces de respaldo.
+- **Balanceadores de carga**: Distribuir el tráfico para evitar sobrecargas en los servidores.
+- **Mitigación de ataques DDoS**: Implementar servicios especializados para detectar y neutralizar este tipo de ataques.
+
+#### 1.1.3. Protección contra intrusión física
+- **Control de acceso con tarjetas**: Usar tarjetas de proximidad para restringir el acceso físico al CPD exclusivamente a personal autorizado.
+- **Cámaras de vigilancia**: Instalar un sistema de videovigilancia activo las 24 horas en todas las áreas del CPD.
+- **Guardias de seguridad**: Contar con personal de seguridad para evitar accesos no autorizados.
+
+#### 1.1.4. Protección contra desastres naturales
+- **Infraestructura resistente**: Diseñar el CPD con materiales capaces de soportar condiciones extremas.
+- **Sistema de extinción de incendios**: Instalar un sistema con gas inerte para apagar incendios sin dañar los equipos.
+- **Monitoreo ambiental**: Usar sensores de temperatura, humedad y humo para conocer el estado del entorno en todo momento.
+
+#### 1.1.5. Protección contra cortes de energía
+- **Sistema de alimentación ininterrumpida (SAI)**: Garantizar suministro eléctrico temporal ante apagones.
+- **Generadores de respaldo**: Contar con generadores que mantengan el CPD operativo si el SAI falla.
+- **Monitoreo eléctrico**: Vigilar el voltaje y la corriente para evitar daños por fluctuaciones.
+
+### 1.2. Amenazas internas
+- **Capacitación del personal**: Formación continua en buenas prácticas de seguridad y gestión de datos.
+- **Gestión de accesos y privilegios**: Aplicar el principio de mínimo privilegio y monitorizar los accesos.
+- **Supervisión de actividad interna**: Registrar e inventariar las actividades en servidores y bases de datos.
+- **Seguridad en endpoints**: Instalar antivirus en todas las estaciones de trabajo y actuar ante posibles amenazas internas.
+
+---
+
+## 2. Políticas de seguridad de acceso a los recursos del CPD
+
+- **Acceso remoto seguro**: Uso de VPN con cifrado y restricciones a redes no autorizadas.
+- **Contraseñas**: Establecer contraseñas seguras y obligar su renovación cada 3 meses.
+- **Permisos**: Asignar únicamente los permisos estrictamente necesarios a cada usuario.
+ 
