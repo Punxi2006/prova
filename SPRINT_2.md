@@ -284,3 +284,104 @@ El CPD está diseñado para alojar el sistema de gestión de actividades deporti
   - Memoria: 4 GB DDR4 (ampliable a 32 GB)  
   - Funcionalidades: RAID 5, replicación, backup automat
 
+### 3.2.3. Estaciones de trabajo
+
+- Modelo: Dell OptiPlex 7020  
+  - Procesador: Intel Core i5-14500  
+  - Memoria: 16 GB DDR5 a 4800 MHz  
+  - Almacenamiento: SSD NVMe 512 GB
+
+### 3.2.4. Equipos de red
+
+#### Switches
+- Modelo: Tenda TEG1118P-16-250W (PoE)  
+  - Características: VLAN, QoS, transmisión extendida
+
+#### Routers
+- Modelo: MikroTik hAP ax³  
+  - Características: WiFi 6, seguridad avanzada
+
+#### SAI
+- Modelo: SAI Online 1000 VA LCD SH  
+  - Respaldo eléctrico, protección contra sobrecargas, apagado automático
+
+## 3.3. Red eléctrica y redundancia
+
+Conexión eléctrica redundante mediante UPS y generadores. Distribución sin puntos únicos de fallo y protección con SAI para equipos críticos.
+
+---
+
+# 4. Infraestructura Lógica
+
+## 4.1. Diseño de redes
+
+- **Segmentación en VLANs**:
+  - Administración
+  - Servidores
+  - Usuario final
+- **Subredes e IPs**: Direccionamiento individual para control y seguridad.
+
+## 4.2. Configuración de servidores y servicios
+
+- Sistema operativo: **Windows Server 2022**
+- Seguridad: Cifrado RSA, autenticación multifactor
+- Virtualización:
+  - **Hyper-V**: en servidor de aplicaciones
+  - **VMware Workstation Pro**: para desarrollo y pruebas
+
+## 4.3. Configuración de Software
+
+- **Base de datos**: MySQL
+- **Backup**: Aomei Backupper
+- **Monitorización**: Pandora FMS, Zabbix, Nagios
+- **Antivirus y seguridad**: F-Secure con cifrado SSL
+
+---
+
+# 5. Decisiones Técnicas y Justificación
+
+## 5.1. Elección de hardware y software
+
+- **Dell PowerEdge**: Fiabilidad, escalabilidad, rendimiento.
+- **NAS Synology**: Almacenamiento escalable y seguro.
+- **Red**: Tenda y MikroTik por su funcionalidad y fiabilidad.
+- **Software**: Windows Server, MySQL, Aomei, VMware
+
+## 5.2. Estrategias de redundancia y alta disponibilidad
+
+- SAI + conexiones duplicadas
+- Servidor de respaldo + replicación de datos en NAS
+- Balanceo de carga para servicios críticos
+
+## 5.3. Políticas de respaldo y recuperación
+
+- Copias automatizadas y remotas
+- Protocolos de recuperación con tiempos mínimos de respuesta
+
+---
+
+# 6. Procedimientos de Mantenimiento y Actualización
+
+## 6.1. Plan de actualización de software
+
+- Actualizaciones periódicas de SO, apps y firmware
+- Pruebas de compatibilidad previas en entornos controlados
+
+## 6.2. Monitoreo y alertas
+
+- Supervisión en tiempo real (Pandora, Zabbix, Nagios)
+- Alertas automáticas para fallos, congestión o amenazas
+
+---
+
+# 7. Recursos adicionales
+
+## 7.1. Enlaces
+
+- GitHub  
+  - Diseño de la arquitectura del sistema  
+  - Selección de hardware y software.pdf  
+  - Diseño de la seguridad.pdf  
+  - Plan de recuperación.pdf
+  
+
