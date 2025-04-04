@@ -62,7 +62,7 @@
 
 - Hemos utilizado el switch Tenda TEG1118P-16-250W ya que un switch PoE de 18 puertos Gigabit con funcionalidades avanzadas como VLAN, QoS y transmisión extendida hasta 250 metros, lo que lo hace ideal para redes empresariales, cámaras IP, VoIP y puntos de acceso WiFi.  
 
-Router: 
+**Router:** 
 
 - Hemos utilizado el MikroTik hAP ax³ (C53UiG+5HPaxD2HPaxD) es un router WiFi 6 de alto rendimiento con potente hardware, seguridad avanzada y gran 
 flexibilidad, ideal para usuarios exigentes, oficinas y empresariales pequeñas. 
@@ -160,4 +160,127 @@ de bases de datos donde se requiere alta disponibilidad y buen rendimiento.
 - **Acceso remoto seguro**: Uso de VPN con cifrado y restricciones a redes no autorizadas.
 - **Contraseñas**: Establecer contraseñas seguras y obligar su renovación cada 3 meses.
 - **Permisos**: Asignar únicamente los permisos estrictamente necesarios a cada usuario.
- 
+
+# PLAN DE RECUPERACIÓN ANTE DESASTRES
+
+Este apartado describe el plan de recuperación ante desastres para garantizar la operatividad del CPD en caso de incidentes que pongan en peligro su actividad.
+
+## 1. Copias de seguridad
+
+### 1.1. Tipos de copias
+- **Copias de seguridad incrementales**: Se realizarán diariamente.
+- **Copias de seguridad diferenciales**: Se realizarán semanalmente.
+- **Copias de seguridad completas**: Se realizarán mensualmente.
+
+### 1.2. Almacenamiento seguro
+- **Almacenamiento local**: Uso de sistemas RAID y NAS.
+- **Almacenamiento externo**: Uso de un servidor en una ubicación alternativa.
+- **Almacenamiento en la nube**: Soluciones cifradas de almacenamiento remoto.
+- **Cifrado de datos**: Implementación del sistema AES-256 para todos los datos.
+
+## 2. Restauración de datos
+
+### 2.1. Pasos para la restauración
+1. **Identificación**: Determinar la causa del fallo del sistema.
+2. **Evaluación**: Medir el alcance del daño en los sistemas y datos.
+3. **Restauración inicial**: Recuperar los servidores principales.
+4. **Restauración de bases de datos**: Implementar las copias de seguridad más recientes.
+5. **Verificación y pruebas**: Evaluar la integridad y funcionalidad de los sistemas restaurados.
+
+### 2.2. Procedimientos de recuperación
+- **Recuperación con snapshots**: Utilizar imágenes almacenadas en entornos de almacenamiento redundantes.
+- **Restauración desde servidores alternativos**: Activar los entornos de respaldo en servidores remotos.
+
+## 3. Mecanismos redundantes
+
+### 3.1. Redundancia en el almacenamiento
+- **RAID**: Garantizar la recuperación y disponibilidad de los datos. Se utilizará **RAID 5** por su equilibrio entre rendimiento, redundancia y capacidad.
+- **Almacenamiento SATA**: Uso de discos de alta velocidad para garantizar la eficiencia operativa.
+
+### 3.2. Infraestructura alternativa
+- **Servidores de respaldo**: Servidor implementado en una ubicación distinta al CPD principal.
+- **Balanceo de carga**: Distribuir el tráfico de forma equitativa para evitar saturaciones.
+- **Energía redundante**: Uso de sistemas UPS y generadores de emergencia.
+
+## 4. Protocolos ante desastres
+
+### 4.1. Plan de acción
+- **Roles**: Definir responsabilidades claras para el personal de informática y administración.
+- **Protocolos de comunicación**: Coordinar equipos internos y externos de manera efectiva.
+- **Escalamiento**: Establecer niveles y tiempos de respuesta ante distintos tipos de incidentes.
+
+### 4.2. Pruebas regulares del plan
+- **Pruebas trimestrales**: Simulación de recuperación de sistemas críticos.
+- **Evaluación de fallos**: Análisis de vulnerabilidades detectadas y mejora continua.
+- **Actualización del plan**: Revisión periódica en función de nuevas amenazas o necesidades operativas.
+
+# 1. Introducción
+
+## 1.1. Propósito del documento
+
+Este documento tiene como finalidad detallar la arquitectura y configuración del Centro de Procesamiento de Datos (CPD) que aloja el sistema de gestión de actividades deportivas de Tavernes. Se examinan tanto los aspectos físicos como lógicos, las decisiones técnicas adoptadas y las estrategias de respaldo y seguridad implementadas para asegurar la operatividad y escalabilidad del sistema.
+
+## 1.2. Alcance
+
+- **Infraestructura física**: Ubicación, distribución y descripción de los equipos (servidores, estaciones de trabajo, dispositivos de red, almacenamiento NAS, etc.).
+- **Infraestructura lógica**: Diseño y segmentación de la red (VLANs, subredes, asignación de IPs), configuraciones de servidores, virtualización y servicios.
+- **Software y servicios**: Sistemas operativos, aplicaciones críticas, herramientas de respaldo, virtualización y monitorización.
+- **Políticas de seguridad y respaldo**: Estrategias para asegurar la integridad, disponibilidad y confidencialidad de la información.
+
+## 1.3. Público objetivo
+
+- Administradores y personal de operaciones de TI.
+- Técnicos de mantenimiento y soporte.
+- Responsables de seguridad y auditoría de sistemas.
+
+---
+
+# 2. Resumen de la Arquitectura
+
+## 2.1. Descripción general del CPD
+
+El CPD está diseñado para alojar el sistema de gestión de actividades deportivas de Tavernes, garantizando un entorno seguro, escalable y de alta disponibilidad. La arquitectura incluye la segmentación en diferentes VLAN para separar el tráfico de gestión, el de servidores y el de respaldo, lo que optimiza el rendimiento y facilita la administración.
+
+## 2.2. Diagrama de arquitectura
+
+<img src="1sprint fotos/1. Diseño de la arquitectura del diseño.jpg" width="50%" height="auto" alt="Mi Foto">
+
+
+---
+
+# 3. Infraestructura Física
+
+## 3.1. Ubicación y distribución del CPD
+
+- **Ubicación**: Sala específica con acceso restringido y monitoreo constante.
+- **Distribución**: Racks organizados para optimizar el flujo de aire y reducir interferencias, con colocación estratégica de servidores, dispositivos de red y almacenamiento.
+
+## 3.2. Equipos
+
+### 3.2.1. Servidores
+
+- **Servidor de aplicaciones**  
+  - Modelo: Dell PowerEdge R740  
+  - Procesador: Intel Xeon Platinum 8253 (2.2 GHz)  
+  - Memoria: Hasta 1 TB DDR4  
+  - Almacenamiento: SSD NVMe (Hyper-V)
+
+- **Servidor de base de datos**  
+  - Modelo: Dell PowerEdge R750  
+  - Procesadores Intel Xeon (última generación)  
+  - Memoria: Hasta 4 TB  
+  - Almacenamiento: SSD NVMe
+
+- **Servidor de respaldo**  
+  - Modelo: Dell PowerEdge R650XS  
+  - Soporta hasta 12 discos SATA, SAS o NVMe  
+  - Memoria optimizada para uso de caché
+
+### 3.2.2. Almacenamiento en red (NAS)
+
+- Modelo: Synology DS1821+  
+  - Capacidad: 10 TB (hasta 18 bahías)  
+  - Procesador: AMD Ryzen V1500B  
+  - Memoria: 4 GB DDR4 (ampliable a 32 GB)  
+  - Funcionalidades: RAID 5, replicación, backup automat
+
